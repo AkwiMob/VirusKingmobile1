@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moon Slayer - Chapitre 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #f0f0f0;
+            display: flex;
+        }
+
+        .nav-bar {
+            width: 220px;
+            background-color: #222;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            padding-top: 20px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+        }
+
+        .nav-bar a {
+            color: #f0f0f0;
+            font-size: 18px;
+            margin: 10px 0;
+            text-decoration: none;
+            text-align: center;
+            padding: 12px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .content {
+            margin-left: 240px;
+            width: calc(100% - 240px);
+            padding: 20px;
+            text-align: center;
+            overflow-y: auto;
+        }
+
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+
+        /* Styles spécifiques pour mobile */
+        @media only screen and (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+
+            .nav-bar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                flex-direction: row;
+                overflow-x: auto;
+                box-shadow: none;
+            }
+
+            .nav-bar a {
+                font-size: 14px;
+                padding: 10px;
+                flex-grow: 1;
+            }
+
+            .content {
+                margin: 0;
+                width: 100%;
+                padding: 10px;
+            }
+
+            img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <a href="https://digital-rectangle-161412.framer.app/" class="home">Accueil</a>
+    <a href="chapter1.html">Chapitre Précédent</a>
+    <a href="chapter2.html">Chapitre Suivant</a>
+</div>
+
+<div class="content">
+    <h1>Moon Slayer - Chapitre 1</h1>
+    <img src="images/01.jpg" alt="Page 01">
+    <img src="images/02.jpg" alt="Page 02">
+    <img src="images/03.jpg" alt="Page 03">
+    <img src="images/04.jpg" alt="Page 04">
+    <img src="images/05.jpg" alt="Page 05">
+    <img src="images/06.jpg" alt="Page 06">
+    <img src="images/07.jpg" alt="Page 07">
+    <img src="images/08.jpg" alt="Page 08">
+    <img src="images/09.jpg" alt="Page 09">
+    <img src="images/10.jpg" alt="Page 10">
+    <img src="images/11.jpg" alt="Page 11">
+    <img src="images/12.jpg" alt="Page 12">
+    <img src="images/13.jpg" alt="Page 13">
+    <img src="images/14.jpg" alt="Page 14">
+    <img src="images/15.jpg" alt="Page 15">
+    <img src="images/16.jpg" alt="Page 16">
+    
+</div>
+
+</body>
+</html>
